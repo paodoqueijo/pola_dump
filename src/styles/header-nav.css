@@ -1,0 +1,84 @@
+.header-nav {
+  /*border: 2px solid yellow;*/
+  height: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.unfold-btn {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 25px;
+  left: 105%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  z-index: 5000;
+}
+
+.unfold-btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 500px) {
+  .header-nav {
+    background-color: rgba(248, 230, 226, 0.8);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .header-nav {
+    position: fixed;
+    z-index: 2000;
+    width: 80%;
+  }
+  .header-nav ul li {
+    font-size: 120%;
+  }
+  .unfold-btn::before {
+    content: '';
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    top: -5px;
+    left: 7px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .unfold-btn::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    top: 5px;
+    left: 7px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .folded {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .folded .unfold-btn::after {
+    top: 5px;
+    left: 12px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .folded .unfold-btn::before {
+    top: -5px;
+    left: 12px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .unfold-btn {
+    display: initial;
+  }
+}
+/*# sourceMappingURL=header-nav.css.map */

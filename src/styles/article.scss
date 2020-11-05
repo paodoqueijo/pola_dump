@@ -1,0 +1,13 @@
+.article-text {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  grid-area: article-text;
+  padding: 0 15px;
+}
+
+.article-text {
+  p {
+    text-align: justify;
+  }
+}

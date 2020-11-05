@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+  font-size: 110%;
+}
+
+.projects-list {
+  font-size: 85%;
+  padding: 2px 15px;
+}
+
+li.active > a {
+  font-weight: bolder;
+}
+
+.active a:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=nav-bar.css.map */

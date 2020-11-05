@@ -1,0 +1,23 @@
+.EditMenu {
+  height: 100%;
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-flow: column nowrap;
+
+  h2,
+  h3 {
+    margin-left: 10px;
+  }
+
+  .delete {
+    background-color: rgb(163, 49, 49);
+    color: whitesmoke;
+    border-radius: 3px;
+    border: none;
+
+    align-self: center;
+    margin: -30px 0 50px 0;
+    font-size: 1.2em;
+    width: 300px;
+  }
+}

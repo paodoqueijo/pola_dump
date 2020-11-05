@@ -1,0 +1,28 @@
+.Login {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+
+  input,
+  button {
+    margin-bottom: 1em;
+    height: 2.5em;
+    line-height: 0.5em;
+    font-size: 1em;
+  }
+
+  button {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

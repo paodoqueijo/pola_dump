@@ -1,0 +1,18 @@
+.Admin {
+  font-weight: bolder;
+  max-width: 650px;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .Admin {
+    background-color: seashell;
+    box-shadow: 2px 0px 15px grey;
+    border-radius: 2px;
+  }
+}

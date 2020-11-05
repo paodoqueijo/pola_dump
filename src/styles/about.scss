@@ -1,0 +1,29 @@
+.About {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 350px;
+  grid-template-rows: 40% 60%;
+  grid-template-areas:
+    "article-text portraits"
+    "article-text portraits "
+}
+
+.portraits  {
+  display: flex;
+  grid-area: portraits;
+  justify-content: center;
+  flex-flow: column nowrap;
+  grid-area: portraits;
+  align-items: center;
+}
+
+@media(max-width: 500px) {
+
+  .About {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: scroll;
+  }
+
+}

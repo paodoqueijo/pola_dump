@@ -1,0 +1,62 @@
+.UploadButton {
+  padding: 5px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form.upload {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0);
+  transition: 0.2s;
+}
+
+form.upload:hover {
+  background-color: rgba(0,0,0,0.3);
+  border: 2px solid rgba(0,0,0,0.9);
+}
+
+form.upload::before {
+  content: '';
+  position: relative;
+  top: 14px;
+  left: 6px;
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 2px;
+}
+
+form.upload::after {
+  content: '';
+  position: relative;
+  top: -33px;
+  left: 14px;
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 2px;
+}
+
+form.upload:hover::after, form:hover::before {
+  background-color: rgba(0,0,0,0.9);
+}
+
+input[type=file]{
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  opacity: 0;
+  border-radius: 50%;
+  z-index: 1000;
+}

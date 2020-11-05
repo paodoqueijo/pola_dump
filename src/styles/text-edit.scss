@@ -1,0 +1,22 @@
+.text-edit {
+  display: flex;
+  flex-flow: colum nowrap;
+  justify-content: center;
+  height: 500px;
+
+  input[type='text'] {
+    background-color: rgba(255, 245, 238, 0.883);
+    border-radius: 3px;
+  }
+
+  .save {
+    margin: -35px auto 20px auto;
+    width: 300px;
+  }
+}
+
+.editor {
+  min-height: 300px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}

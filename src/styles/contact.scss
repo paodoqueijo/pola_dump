@@ -1,0 +1,62 @@
+input, textarea {
+  display: block;
+  width: 100%;
+  background-color: rgba(256,256,256,0.2);
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  background-color: rgba(0,0,0,0.2);
+}
+
+input[type=submit]:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: rgb(250, 232, 227);
+}
+
+.contact {
+  margin: 0 20px;
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+
+  max-width: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: left;
+  gap: 8px;
+  overflow: scroll;
+  width: 100%;
+}
+
+@media(max-width: 500px) {
+
+  .contact {
+    width: 100%;
+    /*border: 2px solid black;*/
+    align-items: center;
+    margin: 0;
+  }
+
+  form {
+    /*border: 2px solid red;*/
+    width: 85%;
+
+
+
+
+  }
+
+}

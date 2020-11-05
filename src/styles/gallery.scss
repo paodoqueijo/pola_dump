@@ -1,0 +1,49 @@
+.gallery-container {
+  width: 100%;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 0;
+}
+
+.col {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 25px;
+  height: 100%;
+  width: 100%;
+  /*border: 3px solid blue;*/
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 45%;
+  width: 100%;
+  /*border: 3px solid green;*/
+  gap: 25px;
+
+  img:hover {
+    cursor: pointer;
+  }
+}
+
+.picture {
+  height: 100%;
+}
+
+@media (max-width: 850px) {
+  .gallery-container {
+    min-height: 100%;
+  }
+
+  .col,
+  .row {
+    gap: 10px;
+  }
+}
