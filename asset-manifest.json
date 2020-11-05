@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/guide-react-gh-pages/static/css/main.e111ee50.chunk.css",
-    "main.js": "/guide-react-gh-pages/static/js/main.65ebaf5e.chunk.js",
-    "main.js.map": "/guide-react-gh-pages/static/js/main.65ebaf5e.chunk.js.map",
-    "runtime-main.js": "/guide-react-gh-pages/static/js/runtime-main.8ddba28a.js",
-    "runtime-main.js.map": "/guide-react-gh-pages/static/js/runtime-main.8ddba28a.js.map",
-    "static/css/2.f87e9f44.chunk.css": "/guide-react-gh-pages/static/css/2.f87e9f44.chunk.css",
-    "static/js/2.af3a02ca.chunk.js": "/guide-react-gh-pages/static/js/2.af3a02ca.chunk.js",
-    "static/js/2.af3a02ca.chunk.js.map": "/guide-react-gh-pages/static/js/2.af3a02ca.chunk.js.map",
-    "index.html": "/guide-react-gh-pages/index.html",
-    "precache-manifest.7af67a1f829d96fafcb09c269da2af1c.js": "/guide-react-gh-pages/precache-manifest.7af67a1f829d96fafcb09c269da2af1c.js",
-    "service-worker.js": "/guide-react-gh-pages/service-worker.js",
-    "static/css/2.f87e9f44.chunk.css.map": "/guide-react-gh-pages/static/css/2.f87e9f44.chunk.css.map",
-    "static/css/main.e111ee50.chunk.css.map": "/guide-react-gh-pages/static/css/main.e111ee50.chunk.css.map",
-    "static/js/2.af3a02ca.chunk.js.LICENSE.txt": "/guide-react-gh-pages/static/js/2.af3a02ca.chunk.js.LICENSE.txt",
-    "static/media/modal.scss": "/guide-react-gh-pages/static/media/camera.c4947113.svg"
+    "main.css": "/pola_dump/static/css/main.57ba722b.chunk.css",
+    "main.js": "/pola_dump/static/js/main.932a489b.chunk.js",
+    "main.js.map": "/pola_dump/static/js/main.932a489b.chunk.js.map",
+    "runtime-main.js": "/pola_dump/static/js/runtime-main.c6cd164b.js",
+    "runtime-main.js.map": "/pola_dump/static/js/runtime-main.c6cd164b.js.map",
+    "static/css/2.f87e9f44.chunk.css": "/pola_dump/static/css/2.f87e9f44.chunk.css",
+    "static/js/2.89980ecd.chunk.js": "/pola_dump/static/js/2.89980ecd.chunk.js",
+    "static/js/2.89980ecd.chunk.js.map": "/pola_dump/static/js/2.89980ecd.chunk.js.map",
+    "index.html": "/pola_dump/index.html",
+    "precache-manifest.3081f422bec1e52bbbbbecb57396d210.js": "/pola_dump/precache-manifest.3081f422bec1e52bbbbbecb57396d210.js",
+    "service-worker.js": "/pola_dump/service-worker.js",
+    "static/css/2.f87e9f44.chunk.css.map": "/pola_dump/static/css/2.f87e9f44.chunk.css.map",
+    "static/css/main.57ba722b.chunk.css.map": "/pola_dump/static/css/main.57ba722b.chunk.css.map",
+    "static/js/2.89980ecd.chunk.js.LICENSE.txt": "/pola_dump/static/js/2.89980ecd.chunk.js.LICENSE.txt",
+    "static/media/modal.scss": "/pola_dump/static/media/camera.c4947113.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ddba28a.js",
+    "static/js/runtime-main.c6cd164b.js",
     "static/css/2.f87e9f44.chunk.css",
-    "static/js/2.af3a02ca.chunk.js",
-    "static/css/main.e111ee50.chunk.css",
-    "static/js/main.65ebaf5e.chunk.js"
+    "static/js/2.89980ecd.chunk.js",
+    "static/css/main.57ba722b.chunk.css",
+    "static/js/main.932a489b.chunk.js"
   ]
 }
